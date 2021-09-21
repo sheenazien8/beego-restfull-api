@@ -1,0 +1,14 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/16 21:59:58.721  [C] [config.go:190]  the request url is  /v1/students
+2021/09/16 21:59:58.721  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/studentcontroller/create.tpl
+2021/09/16 21:59:58.721  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/16 21:59:58.721  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/16 21:59:58.721  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/16 21:59:58.721  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/16 21:59:58.721  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371

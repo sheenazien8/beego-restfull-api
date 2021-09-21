@@ -1,0 +1,147 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/18 17:00:30.246  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:00:30.248  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:00:30.890  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:00:30.891  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:00:32.716  [C] [config.go:190]  the request url is  /v1/auth/login
+2021/09/18 17:00:32.716  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/authcontroller/login.tpl
+2021/09/18 17:00:32.716  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/18 17:00:32.716  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/18 17:00:32.716  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/18 17:00:32.716  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/18 17:00:32.716  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/18 17:00:50.441  [I] [parser.go:413]  generate router from comments
+2021/09/18 17:00:50.442  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:00:50.909  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.642629ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:00:52.019  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:00:52.019  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:00:56.654  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|   2.363386ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:00:58.447  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.96416ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:01:00.647  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    1.63174ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:01:02.146  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.338759ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:01:12.533  [I] [parser.go:413]  generate router from comments
+2021/09/18 17:01:12.535  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:01:14.074  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:01:14.074  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:04:05.246  [I] [parser.go:413]  generate router from comments
+2021/09/18 17:04:05.247  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:04:06.756  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:04:06.756  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:05:30.385  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:05:30.385  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:05:35.809  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:05:35.809  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:06:17.009  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:06:17.009  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:06:43.591  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:06:43.591  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:08:07.143  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:08:07.143  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:11:46.294  [I] [parser.go:413]  generate router from comments
+2021/09/18 17:11:46.294  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:11:47.870  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 17:11:47.870  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:12:23.369  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.696804ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:10:04.865  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.699215ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:10:17.021  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:10:17.021  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:11:18.460  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:11:18.461  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:11:20.306  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:11:20.306  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:11:21.116  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:11:21.116  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:11:29.540  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   2.763144ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:11:46.392  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   2.000111ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:11:47.637  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   2.835639ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:11:48.911  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|    1.52095ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:12:10.449  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:12:10.450  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:12:12.090  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:12:12.090  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:12:14.323  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   4.302999ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:13:04.924  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:13:04.926  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:13:06.543  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:13:06.543  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:13:17.015  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:13:17.015  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:13:18.908  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:13:18.908  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:13:22.085  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.168493ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:13:32.166  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.773503ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:13:34.269  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.515625ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:13:37.860  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.908867ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:13:47.528  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:13:47.528  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:13:49.159  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:13:49.159  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:04.551  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:14:04.552  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:05.658  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   3.420715ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:14:06.258  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:14:06.259  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:23.935  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:14:23.938  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:24.858  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   1.584002ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:14:25.819  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:14:25.819  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:49.218  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:14:49.219  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:14:50.814  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:14:50.814  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:01.775  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:15:01.776  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:03.289  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:15:03.289  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:05.859  [D] [router.go:955]  |            ::1|[97;43m 401 [0m|   2.260471ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:15:20.552  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:15:20.553  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:21.218  [D] [router.go:955]  |            ::1|[97;42m 200 [0m| 166.735406ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:15:22.183  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:15:22.183  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:36.355  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:15:36.356  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:15:38.192  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:15:38.192  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:20:52.313  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:20:52.314  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:20:53.857  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:20:53.857  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:20:59.883  [D] [router.go:955]  |            ::1|[97;42m 200 [0m| 164.539746ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:21:12.947  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:21:12.947  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:21:14.454  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:21:14.454  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:21:17.056  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|  161.49308ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:21:25.101  [D] [router.go:955]  |            ::1|[97;43m 401 [0m| 163.093135ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:21:28.017  [D] [router.go:955]  |            ::1|[97;42m 200 [0m| 163.003242ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:21:31.038  [D] [router.go:955]  |            ::1|[97;43m 401 [0m| 168.408707ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:21:44.173  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:21:44.174  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:21:45.781  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:21:45.781  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:22:21.685  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:22:21.686  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:22:23.346  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:22:23.346  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:22:24.071  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:22:24.071  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:23:09.007  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:23:09.007  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:23:10.523  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:23:10.523  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:23:38.801  [D] [router.go:955]  |            ::1|[97;43m 401 [0m| 162.868321ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:23:43.945  [D] [router.go:955]  |            ::1|[97;42m 200 [0m| 163.100546ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/19 06:24:13.948  [I] [parser.go:413]  generate router from comments
+2021/09/19 06:24:13.949  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:24:15.497  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/19 06:24:15.497  [I] [server.go:241]  http server Running on http://:8080
+2021/09/19 06:24:18.169  [D] [router.go:955]  |            ::1|[97;42m 200 [0m| 163.483035ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login

@@ -1,0 +1,17 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:32:10.083  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:32:10.083  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:32
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:32:10.083  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:32:10.083  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371

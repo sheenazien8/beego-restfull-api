@@ -1,0 +1,981 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:32:29.585  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:32:29.587  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:32:31.174  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:32:31.174  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:32:35.385  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:32:35.385  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:32:35.385  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:32:35.385  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:32:35.385  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:32:35.385  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:32:35.385  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:32:35.385  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:32
+2021/09/17 06:32:35.385  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:32:35.385  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:32:35.385  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:32:35.386  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:32:35.386  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:32:35.386  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:32:35.386  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:32:35.386  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:32:53.681  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:32:53.685  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:32:55.278  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:32:55.278  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:32:59.527  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:32:59.527  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:33
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:32:59.527  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:32:59.527  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:32:59.528  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:33:23.329  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:33:23.329  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:33:28.235  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:33:28.238  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:33:28.472  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:33:28.472  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:33
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:33:28.472  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:33:28.472  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:33:41.418  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    168.982µs|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:34:19.524  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:34:19.524  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:21.182  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:34:21.182  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:22.332  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    166.748µs|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 06:34:30.504  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:34:30.505  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:32.159  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:34:32.159  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:48.372  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:34:48.373  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:48.887  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:34:48.887  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:34
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:34:48.887  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:34:48.887  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:34:50.071  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:34:50.071  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:34:53.789  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:34:53.789  [C] [config.go:191]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/17 06:34:53.789  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:34:53.789  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:212
+2021/09/17 06:34:53.789  [C] [config.go:197]  /usr/local/go/src/runtime/signal_unix.go:734
+2021/09/17 06:34:53.789  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/gorm.go:355
+2021/09/17 06:34:53.789  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:159
+2021/09/17 06:34:53.790  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:34
+2021/09/17 06:34:53.790  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:34:53.790  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:34:53.790  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:34:53.790  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:34:53.790  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:34:53.790  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:34:53.790  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:34:53.790  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:35:54.200  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:35:54.201  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:35:55.746  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:35:55.746  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:35:58.303  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.559039ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 06:37:21.195  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:37:21.196  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:37:25.783  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:37:25.783  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:37:26.282  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:37:26.282  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:37:29.095  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.759039ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:38:37.430  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:38:37.431  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:38:39.210  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:38:39.210  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:39:03.288  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:39:03.289  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:39:04.865  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:39:04.865  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:39:06.003  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:39:06.003  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.Set using unaddressable value
+2021/09/17 06:39:06.003  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:39:06.003  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:39:06.003  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:39:06.003  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1558
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:729
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:323
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:52
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:39:06.003  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:51
+2021/09/17 06:39:06.004  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:39:06.004  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:39:06.004  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:39:06.004  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:39:06.004  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:39:06.004  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:39:06.004  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:39:06.004  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:39:57.911  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:39:57.911  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:39:59.462  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:39:59.463  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:40:16.811  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:40:16.811  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:40:18.315  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:40:18.315  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:40:21.002  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.569287ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:41:30.947  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:41:30.947  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:41:36.226  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:41:36.226  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:41:36.273  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:41:36.273  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:41:37.863  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:41:37.863  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:41:42.654  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.679582ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:42:33.618  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:42:33.618  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:42:35.198  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:42:35.198  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:43:13.038  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:43:13.041  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:43:14.567  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:43:14.567  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:43:17.085  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:43:17.085  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:43:17.085  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:43:17.085  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:43:17.085  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:43:17.085  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:53
+2021/09/17 06:43:17.086  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:43:17.086  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:43:17.086  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:43:17.086  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:43:17.086  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:43:17.086  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:43:19.820  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:43:19.820  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:43:19.820  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:43:19.820  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:43:19.820  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:43:19.820  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:43:19.820  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:43:19.820  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:43:19.820  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:43:19.820  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:43:19.820  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:53
+2021/09/17 06:43:19.821  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:43:19.821  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:43:19.821  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:43:19.821  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:43:19.821  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:43:19.821  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:43:19.821  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:43:19.821  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:43:52.681  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:43:52.681  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:43:54.188  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:43:54.189  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:43:58.670  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.279467ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:44:19.985  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:44:19.985  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:44:21.610  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:44:21.611  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:44:30.007  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.323959ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:44:55.997  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:44:55.997  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:44:57.606  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:44:57.606  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:49:37.296  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:49:37.297  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:49:38.881  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:49:38.881  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:49:51.632  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:49:51.633  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:49:53.176  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:49:53.176  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:49:56.233  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:49:56.233  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:58
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:49:56.233  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:49:56.233  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:50:41.648  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:50:41.649  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:50:41.651  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:50:41.652  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:50:41.652  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:50:41.652  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:50:41.652  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:50:41.652  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:50:41.652  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:50:41.652  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:50:41.652  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:58
+2021/09/17 06:50:41.652  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:50:41.652  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:50:41.653  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:50:41.653  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:50:41.653  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:50:41.653  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:50:41.653  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:50:41.653  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:50:43.673  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:50:43.673  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:50:45.210  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:50:45.210  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:50:46.924  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:50:46.925  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:59
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:50:46.925  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:50:46.925  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:50:52.596  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:50:52.596  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:50:57.804  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:50:57.804  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:59
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:50:57.804  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:50:57.804  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:50:57.805  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:50:57.805  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:50:57.805  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:50:57.805  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:50:57.805  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:51:57.309  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:51:57.311  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:51:58.219  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.380693ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:51:59.316  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:51:59.316  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:52:05.120  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   5.568327ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:52:33.194  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:52:33.194  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:52:34.417  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.366225ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:52:43.366  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.228775ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 06:53:03.681  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:53:03.681  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:53:20.608  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:53:20.608  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:53:22.129  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.425874ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 06:53:36.878  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:53:36.879  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:53:38.714  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:53:38.714  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:54:03.821  [I] [parser.go:413]  generate router from comments
+2021/09/17 06:54:03.822  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:54:04.694  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.552884ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 06:54:05.395  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:54:05.396  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:54:06.869  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:54:06.869  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:54:06.870  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:54:06.870  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 06:54:50.041  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:54:50.041  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:54:54.063  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   5.584315ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:57:56.813  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   7.156967ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 06:58:04.327  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:58:04.327  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:59:07.518  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 06:59:07.518  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 06:59:13.281  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 06:59:13.281  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 06:59:13.281  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 06:59:13.281  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 06:59:13.281  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 06:59:13.281  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 06:59:13.281  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 06:59:13.281  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 06:59:13.282  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 06:59:13.282  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 06:59:13.282  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 06:59:13.282  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 06:59:13.282  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 06:59:13.282  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:00:03.062  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:00:03.062  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:00:53.707  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:00:53.707  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:01:05.601  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:01:05.601  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:01:06.183  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:01:06.183  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:01:06.183  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:01:06.183  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:01:06.184  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:02:23.359  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:02:23.359  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:02:25.008  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:02:25.008  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:03:50.489  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:03:50.489  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:04:25.612  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:04:25.612  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:04:27.053  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:04:27.053  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:04:27.053  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:04:27.053  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:04:48.050  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:04:48.051  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:05:00.334  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:05:00.334  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:05:00.334  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:05:00.334  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:05:00.335  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:05:00.335  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:05:49.330  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:05:49.330  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:05:58.552  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:05:58.552  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:06:03.399  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:06:03.399  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:06:03.399  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:06:03.399  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:06:03.399  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:06:03.399  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:06:03.399  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:06:03.399  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:06:03.400  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:06:03.400  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:06:03.400  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:06:03.400  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:06:03.400  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:06:03.400  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:06:13.552  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:06:13.552  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:06:16.227  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:06:16.228  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:06:16.228  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:06:16.228  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:06:23.865  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:06:23.865  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:06:37.294  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.816438ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 07:06:46.259  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:06:46.259  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:06:46.259  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:06:46.259  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:06:48.324  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   4.443334ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 07:08:10.788  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:08:10.788  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:08:18.088  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.709782ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 07:08:20.561  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:08:20.561  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:08:20.561  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:08:20.561  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:08:20.561  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:08:20.561  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:08:20.561  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:08:20.561  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:08:20.562  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:08:20.562  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:08:20.562  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:08:20.562  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:08:20.562  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:08:20.562  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:08:21.705  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:08:21.705  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:08:21.705  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:08:21.705  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:08:21.706  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:08:21.706  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:08:21.706  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:08:21.706  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:08:21.706  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:11:53.309  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:11:53.309  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:11:57.722  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:11:57.722  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:11:57.722  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:11:57.722  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:11:57.722  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:11:57.722  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:11:57.722  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:11:57.723  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:11:57.723  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:11:57.723  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:11:57.723  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:11:57.723  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:11:57.723  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:12:44.033  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:12:44.033  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:12:49.246  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:12:49.246  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:12:49.246  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:12:49.246  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:12:49.247  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:12:50.661  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:12:50.661  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:12:50.661  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:12:50.661  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:12:50.661  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:12:50.661  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:12:50.661  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:12:50.661  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:12:50.661  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:12:50.661  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:12:50.661  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:12:50.662  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:12:50.662  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:12:50.662  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:12:50.663  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:12:50.663  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:12:50.663  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:12:50.663  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:12:50.663  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:13:37.871  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:13:37.871  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:13:42.933  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:13:42.933  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetUint using unaddressable value
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1716
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:632
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:13:42.933  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:13:42.933  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:13:42.934  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:13:42.934  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:13:42.934  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:13:42.934  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:13:53.633  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:13:53.634  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:13:54.047  [C] [config.go:190]  the request url is  /v1/students
+2021/09/17 07:13:54.047  [C] [config.go:191]  Handler crashed with error reflect: reflect.Value.SetInt using unaddressable value
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:260
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:247
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:1637
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/schema/field.go:562
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks/create.go:100
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/callbacks.go:130
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/gorm.io/gorm@v1.21.15/finisher_api.go:24
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/code/learn/go/base-project/app/controllers/students.go:42
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:476
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/reflect/value.go:337
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:13:54.048  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:13:54.048  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:30:08.161  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:30:08.162  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:30:22.244  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:30:22.244  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:30:47.673  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:30:47.673  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:30:48.042  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   8.921459ms|   match|[97;46m POST    [0m /v1/students   r:/v1/students/
+2021/09/17 07:30:49.242  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:30:49.242  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:35:22.411  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:35:22.411  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:06.234  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:37:06.235  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:08.624  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:37:08.624  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:08.882  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:37:08.883  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:10.222  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:37:10.222  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:24.945  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:37:24.945  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:37:58.058  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:37:58.059  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:39:05.219  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:39:05.219  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:41:14.735  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.57454ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/17 07:44:51.667  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:44:51.667  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:44:56.172  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:44:56.172  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:04.071  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:47:04.075  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:08.954  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:47:08.954  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:19.267  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:47:19.268  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:20.863  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:47:20.864  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:21.342  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    160.753µs|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:47:27.147  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|     96.791µs|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:47:39.276  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|     84.714µs|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:47:39.961  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:47:39.961  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:41.493  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:47:41.494  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:47:42.187  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    151.621µs|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:48:16.992  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|     96.877µs|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:48:17.621  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:48:17.622  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:48:19.173  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:48:19.173  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:48:24.550  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.820237ms|   match|[97;44m GET     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:49:11.040  [C] [config.go:190]  the request url is  /v1/students/1
+2021/09/17 07:49:11.040  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/studentcontroller/update.tpl
+2021/09/17 07:49:11.040  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/17 07:49:11.040  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/17 07:49:11.040  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/17 07:49:11.040  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/17 07:49:11.040  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/17 07:51:59.872  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:51:59.873  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:52:01.407  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:52:01.407  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:53:05.915  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:53:05.916  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:53:07.454  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:53:07.454  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:53:54.395  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:53:54.396  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:54:00.098  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:54:00.100  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:54:00.222  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:54:00.222  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:54:00.264  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.315426ms|   match|[97;43m PUT     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:54:01.751  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:54:01.752  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:54:22.271  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.153959ms|   match|[97;43m PUT     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:54:26.047  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.889201ms|   match|[97;43m PUT     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:55:00.713  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:55:00.714  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:55:02.265  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:55:02.265  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:55:03.910  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|  26.157936ms|   match|[97;43m PUT     [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:56:23.868  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:56:23.868  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:56:25.402  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:56:25.402  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:57:12.019  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:57:12.020  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:57:13.770  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:57:13.770  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:58:02.707  [I] [parser.go:413]  generate router from comments
+2021/09/17 07:58:02.708  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:58:04.233  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/17 07:58:04.233  [I] [server.go:241]  http server Running on http://:8080
+2021/09/17 07:58:23.820  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.760792ms|   match|[97;41m DELETE  [0m /v1/students/1   r:/v1/students/:id
+2021/09/17 07:58:27.470  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.288788ms|   match|[97;41m DELETE  [0m /v1/students/1   r:/v1/students/:id
+2021/09/18 16:15:49.485  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:15:49.486  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:15:53.170  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.534143ms|   match|[97;44m GET     [0m /v1/students   r:/v1/students/
+2021/09/18 16:18:44.232  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:18:44.233  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:18:45.765  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:18:45.765  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:20:39.644  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:20:39.645  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:20:44.920  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:20:44.921  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:20:45.031  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:20:45.031  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:20:46.437  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:20:46.437  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:21:01.178  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:21:01.179  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:21:02.736  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:21:02.736  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:21:28.388  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:21:28.389  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:21:32.925  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:21:32.925  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:22:12.550  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:22:12.552  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:22:14.324  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:22:14.324  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:22:20.564  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:22:20.564  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:22:22.128  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:22:22.128  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:23:00.047  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:23:00.048  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:23:01.617  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:23:01.618  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:24:33.548  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:24:33.548  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:24:37.715  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:24:37.716  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:24:42.324  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:24:42.324  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:25:01.340  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.610087ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:25:44.499  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.491743ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:25:46.164  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:25:46.166  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:25:47.666  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:25:47.666  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:25:49.760  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.406531ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:38:50.305  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.031618ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:38:52.973  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:38:52.974  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:38:54.497  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:38:54.497  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:40:32.391  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:40:32.392  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:40:33.929  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:40:33.929  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:41:55.783  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:41:55.784  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:41:57.316  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:41:57.316  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:42:31.811  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:42:31.811  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:42:33.364  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:42:33.364  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:42:37.890  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.261196ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:42:44.508  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   3.067488ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:42:51.037  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.353514ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:43:14.898  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:43:14.899  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:43:16.424  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:43:16.425  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:43:19.876  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.930705ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:43:42.169  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:43:42.169  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:43:43.743  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:43:43.743  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:43:46.150  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.790854ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:44:01.899  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:44:01.899  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:44:03.434  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:44:03.434  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:44:05.509  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.77405ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:44:14.051  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.737737ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:44:50.750  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:44:50.751  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:44:52.267  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:44:52.267  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:44:57.077  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.175049ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:45:34.730  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:45:34.731  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:45:36.307  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:45:36.307  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:45:40.824  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.612623ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:45:45.860  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.870144ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:47:25.062  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:47:25.063  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:47:26.589  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:47:26.589  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:48:23.922  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:48:23.923  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:48:24.322  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:48:24.322  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:48:25.507  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:48:25.507  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:49:43.093  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:49:43.097  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:49:44.599  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:49:44.599  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:49:47.306  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.046941ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:49:52.532  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.414839ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:52:21.917  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:52:21.918  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:52:24.453  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.238127ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:52:25.722  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:52:25.722  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:52:26.316  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:52:26.316  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:52:29.910  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.130206ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:55:11.540  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:55:11.542  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:55:13.443  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:55:13.443  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:55:46.915  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:55:46.916  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:55:48.435  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:55:48.435  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:55:50.561  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|   1.651174ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:57:11.641  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:57:11.642  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:57:12.735  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.934588ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:57:13.540  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:57:13.540  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:57:22.047  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.930006ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:57:23.285  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:57:23.286  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:57:24.882  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:57:24.882  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:57:26.629  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|   1.670117ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:10.455  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.756931ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:12.246  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.885724ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:21.944  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:58:21.945  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:58:22.648  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   4.902509ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:23.680  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:58:23.680  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:58:32.784  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    2.57649ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:35.480  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.117328ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:37.478  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.95899ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:58:38.698  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.943141ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:24.879  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:59:24.880  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:59:26.397  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:59:26.397  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:59:30.863  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.88553ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:34.015  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.618645ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:35.336  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|   1.648115ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:36.749  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.074454ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:55.115  [I] [parser.go:413]  generate router from comments
+2021/09/18 16:59:55.115  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:59:56.658  [I] [parser.go:85]  /home/sheena/code/learn/go/base-project/app/controllers no changed
+2021/09/18 16:59:56.659  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 16:59:57.983  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    2.37259ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 16:59:59.653  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|   3.530035ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:00:01.662  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.982677ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:00:02.908  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.777662ms|   match|[97;46m POST    [0m /v1/auth/login   r:/v1/auth/login
+2021/09/18 17:00:25.216  [I] [parser.go:413]  generate router from comments
+2021/09/18 17:00:25.217  [I] [server.go:241]  http server Running on http://:8080
+2021/09/18 17:00:28.865  [C] [config.go:190]  the request url is  /v1/auth/login
+2021/09/18 17:00:28.865  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/authcontroller/login.tpl
+2021/09/18 17:00:28.865  [C] [config.go:197]  /usr/local/go/src/runtime/panic.go:965
+2021/09/18 17:00:28.865  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/18 17:00:28.865  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/18 17:00:28.866  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/18 17:00:28.866  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/18 17:00:28.866  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/18 17:00:28.866  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/18 17:00:28.866  [C] [config.go:197]  /home/sheena/go/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/18 17:00:28.866  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:2867
+2021/09/18 17:00:28.866  [C] [config.go:197]  /usr/local/go/src/net/http/server.go:1932
+2021/09/18 17:00:28.866  [C] [config.go:197]  /usr/local/go/src/runtime/asm_amd64.s:1371
