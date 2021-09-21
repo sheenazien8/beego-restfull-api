@@ -1,4 +1,0 @@
-{
-  "sqltype":"mssql",
-  "connstring":"server=192.168.10.10;port=3360;user=homestead;password=secret;database=schools"
-}
